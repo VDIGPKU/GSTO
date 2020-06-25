@@ -81,12 +81,12 @@ follow the prepare instruction in [HRNet-Semantic-Segmentation](https://github.c
 
 ### Test
 
-#### cityscapes test result 82.4
+#### cityscapes test mIoU 82.4
 ```Bash
 CUDA_VISIBLE_DEVICES=0 python test.py --cfg cfg_files/gsto_hrnet_w48_cityscapes.yaml
 ```
 
-#### LIP test result 
+#### LIP test mIoU 57.4
 ```Bash
 CUDA_VISIBLE_DEVICES=0 python test.py --cfg cfg_files/gsto_hrnet_w48_lip.yaml
 ```
